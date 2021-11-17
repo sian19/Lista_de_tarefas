@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h2{
+    margin: 10px 0;
+    font-size: 32px;
+}
+
+ul{
+    list-style: inside;
+    padding-top: 12px;
+
+    list-style: none;
+    
+}
+
+form h3{
+    padding-bottom: 10px;
+}
+
+.item{
+    font-size: 26px;
+    box-shadow: 0 2px 7px 1px rgba(0,0,0, 0.2);
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+.item:not(:first-of-type){
+    margin-top: 12px;
+}
+
+.container form{
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+    width: 100%;
+    background-color: cornflowerblue;
+    padding: 2px 4%;
+}
+
+input{
+    width:  100%;
+    max-width:  800px;
+    margin-bottom: 12px;
+    outline: 0;
+
+    color: red;
+    padding: 8px 1%;
+    font-size:  20px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid rgb(50, 168, 139);
+    box-shadow: 0 0 7px rgb(50, 168, 139);
+}
+
+button:not(:first-of-type){
+    margin-top: 10px;
+}
+
+ul li div button:nth-of-type(2){
+    background-color: transparent;
+    border: 0;
+}
+
+button{
+    width: 7rem;
+    padding: 5px 0;
+    outline: 0;
+    cursor:  pointer;
+    background-color: aqua;
+    border: 1px solid black;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: chartreuse;
+    color: crimson;
+    border: 2px solid rgb(50, 168, 139);
+    box-shadow: 0 0 5px rgb(50, 168, 139);
+}
+
+li{
+    color: red;
+    
+}
+
+.text{
+    width: 70%;
+}
+
+
+ul li button{
+    width: 28px;
+    padding: 0px 0;
+
+    margin-left: 10px;
+}
+
+ul li div > button:first-child{
+    background-color: transparent;
+    border: 0;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.done{
+    text-decoration:  line-through;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+
+    word-break: break-word;
+    padding: 0 1%;
+}
+
+.addButton:hover{
+    background-color: red;
+    color: white;
+}
+
+button.addButton{
+    width: 5rem;
+    height: 2rem;
+    padding: 0;
+    margin-top:  10px;
+    border-radius: 30px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 2%;
+}
+
+.barraModal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.6);
+
+   position: fixed;
+   top: 0;
+   left: 0;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.closedModal{
+   cursor: pointer;
+   position: absolute;
+   top: 0;
+   right: 0;
+   font-weight: 700;
+   font-size: 25px;
+   right: 10px;
+}
+
+.closedModal:hover{
+    color: red;
+}
+
+.hideBarraModal{
+    display: none;
+}
+
+.modalCard{
+    width: 50%;
+    padding: 20px;
+    background-color: azure;
+    border-radius:  16px;
+    position: relative;
+}
+
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    
+    background: url("../src/img/list.svg") no-repeat center/cover;
+}
+
+.global{
+    overflow: hidden;
+}
+
+/*Mediaqueries*/
+@media  screen and (max-width: 1000px) {
+
+    .modalCard{
+        width:  60%;
+    }
+}
+
+footer{
+    width: 100vw;
+    padding: 14px 1%;
+    background-color: cornflowerblue;
+    font-weight: 700;
+
+    font-size: 26px;
+    text-align: center;
+}
+
+@media screen and (max-width: 952px){
+    .item{
+        padding: 0 1%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .modalCard{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .text{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .header h2{
+        width: 65%;
+    }
+}
+
+
