@@ -1,5 +1,5 @@
 # Lista_de_tarefas
-Primeiro projeto criado para colocar em prática oque foi ensinado no curso programador br.
+Primeiro projeto criado em React para colocar em prática oque foi ensinado no curso programador br.
 <h3>Imagem do projeto:</h3>
 <img src="https://github.com/sian19/Lista_de_tarefas/blob/master/src/img/img-projeto.jpg">
 <p>Projeto feito com o framework React onde se foi criado uma aplicação web de uma lista de tarefas onde o usuário vai digitando as tarefas a serem feitas por ele, dessa forma tornando a vida do usuário bem mais organizada para cumprir a suas determinadas tarefas do cotidiano.</p>
