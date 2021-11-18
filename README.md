@@ -16,4 +16,4 @@ Primeiro projeto criado em React para colocar em prática oque foi ensinado no c
   <li>Tabmbém é possível fechar o modal ao clicar do lado de fora do mesmo.</li>
 </ul>
 <h3>Link do projeto:</h3>
-<a href="">Clique aqui</a>
+<a href="https://lista--de--tarefas.herokuapp.com/">Clique aqui</a>
